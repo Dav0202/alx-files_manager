@@ -1,5 +1,7 @@
 import express from 'express';
+import UsersController from '../controllers/UsersController';
 import AppController from '../controllers/AppController';
+import AuthController from '../controllers/AuthController';
 
 function controllerRouting(app) {
   const router = express.Router();
